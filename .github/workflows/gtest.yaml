@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: make script executable
-      run:  git update-index --chmod=+x ./.github/scripts/install-googletest.sh
+      run:  chmod=+x install-googletest.sh
     - name: Run Install script
       run:  ./install-googletest.sh
     # - name: Clone GTest
