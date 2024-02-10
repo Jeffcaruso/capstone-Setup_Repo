@@ -24,3 +24,12 @@ echo "        rm -rf googletest"
 echo "to delete the installation files"
 echo "===================================="
 
+echo "===================================="
+echo " If failing un-expectedly after     "
+echo "   modifying install-googletest.sh  "
+echo "  review the comments at the bottom "
+echo "===================================="
+
+##Note, if you modify this file, you may need to re-enable execution
+# https://stackoverflow.com/questions/73077753/git-action-showing-permission-denied-i-have-an-error-when-pushing-my-code-under
+# https://github.com/orgs/community/discussions/26239
