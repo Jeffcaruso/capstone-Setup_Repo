@@ -11,8 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: make script executable
-      run:  chmod=+x ./install-googletest.sh
     - name: Run Install script
       run:  ./install-googletest.sh
     # - name: Clone GTest

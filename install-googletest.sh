@@ -23,3 +23,4 @@ echo "If installation is successfull, use"
 echo "        rm -rf googletest"
 echo "to delete the installation files"
 echo "===================================="
+
