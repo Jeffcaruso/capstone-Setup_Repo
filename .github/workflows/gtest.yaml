@@ -9,6 +9,7 @@ jobs:
   install_gTest:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
     - name: Run Install script
       run:  ./install-googletest.sh
     # - name: Clone GTest
