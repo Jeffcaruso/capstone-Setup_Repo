@@ -4,7 +4,8 @@ on:
     branches: [ main, starter, solution ]
   pull_request:
     branches: [ main, starter, solution ]
-
+permissions:
+  contents: write
 jobs:
   install_gTest:
     runs-on: ubuntu-latest
