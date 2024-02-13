@@ -7,7 +7,7 @@
     1. NOTE: You will need to sign in with your UW NET ID 
     1. Docker - start the container you made from containers page of docker desktop
     1. Remote Explorer (VSC) - find the container with the play button icon
-   ![title](images/play button.png)
+    ![images/play button.png](https://github.com/Jeffcaruso/capstone-Setup_Repo/blob/main/images/play%20button.PNG))
     1. Open the container (pick either A or B)
         1. Same window - press arrow; ->
         1. New window, the window with a + in corner; +[]
