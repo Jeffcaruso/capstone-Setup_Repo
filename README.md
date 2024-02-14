@@ -3,7 +3,7 @@
 ## Purpose
 This repository is intended to support you configuring your Docker container to use Google Test to support your Test Driven Development
 
-## Steps for you to follow for Setup
+## Steps for you to follow for Setup of gTest
 1. Setup container following [CSS Wiki Instructions](https://csswiki.uwb.edu/css-linux-lab-docker-image/)
     1. NOTE: You will need to sign in with your UW NET ID 
 1. CSS Wiki on how to [open Docker container](https://csswiki.uwb.edu/attach-vscode-to-csslab-docker-container/)
@@ -27,3 +27,9 @@ This repository is intended to support you configuring your Docker container to 
 1. Congratulations! Google Test should now be installed!
     1. You will not have to run the install script again locally within the contatiner used. You will only need to re-do this process to use a different container
     2. The install script (install-googletest.sh) will be present in future repos for GitHub Actions' usage. You will not need to use it or intervene to install google test on GitHub Actions
+
+## Steps for additional dependencies
+add the following extensions:
+- C/C++
+- C/C++ extension pack
+    - Automatically installs: CMake, CMake Tools, C/C++ Themes 
