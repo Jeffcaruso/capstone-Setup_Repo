@@ -30,6 +30,7 @@ This repository is intended to support you configuring your Docker container to 
 
 ## Steps for additional dependencies
 add the following extensions:
+- Remote Development (should have from Step 2 above)
 - C/C++
 - C/C++ extension pack
     - Automatically installs: CMake, CMake Tools, C/C++ Themes 
