@@ -34,3 +34,5 @@ add the following extensions:
 - C/C++
 - C/C++ extension pack
     - Automatically installs: CMake, CMake Tools, C/C++ Themes 
+Resulting Extensions should include (more ok, but at least these):
+![Extensions You Should have](https://github.com/Jeffcaruso/capstone-Setup_Repo/blob/main/images/extensions%20view.PNG)
