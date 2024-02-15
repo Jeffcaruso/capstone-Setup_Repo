@@ -28,7 +28,7 @@ This repository is intended to support you configuring your Docker container to 
 1. Verify that the extensions found in the "Steps for additional dependencies" below are installed on the container
     1. Those should be present in both of the following:
         1. Local - Installed
-        1. Container CSSIMAGES/MULTIARCH:LATEST
+        1. Container CSSIMAGES/MULTIARCH:LATEST ...
 1. Congratulations! Google Test should now be installed!
     1. You will not have to run the install script again locally within the contatiner used. You will only need to re-do this process to use a different container
     2. The install script (install-googletest.sh) will be present in future repos for GitHub Actions' usage. You will not need to use it or intervene to install google test on GitHub Actions
