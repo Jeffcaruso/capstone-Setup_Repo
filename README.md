@@ -6,6 +6,7 @@ This repository is intended to support you configuring your Docker container to 
 ## Steps for you to follow for Setup of gTest
 1. Setup container following [CSS Wiki Instructions](https://csswiki.uwb.edu/css-linux-lab-docker-image/)
     1. NOTE: You will need to sign in with your UW NET ID 
+1. Add the extensions to VSC that are listed in the "Steps for additional dependencies" section below
 1. CSS Wiki on how to [open Docker container](https://csswiki.uwb.edu/attach-vscode-to-csslab-docker-container/)
     1. NOTE: You will need to sign in with your UW NET ID 
     1. Docker - start the container you made from containers page of docker desktop
@@ -24,6 +25,10 @@ This repository is intended to support you configuring your Docker container to 
 1. Following notes at bottom of script,
     1. If install ok (no errors), Enter command in bash terminal: 'rm -rf googletest'
     2. If not ok (errors), follow instrucitons left at end of the output, seek additional support if needed.
+1. Verify that the extensions found in the "Steps for additional dependencies" below are installed on the container
+    1. Those should be present in both of the following:
+        1. Local - Installed
+        1. Container CSSIMAGES/MULTIARCH:LATEST
 1. Congratulations! Google Test should now be installed!
     1. You will not have to run the install script again locally within the contatiner used. You will only need to re-do this process to use a different container
     2. The install script (install-googletest.sh) will be present in future repos for GitHub Actions' usage. You will not need to use it or intervene to install google test on GitHub Actions
