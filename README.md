@@ -17,10 +17,20 @@ This repository is intended to support you configuring your Docker container to 
         1. New window, the window with a + in corner; +[]
         ![images/showing opening](https://github.com/Jeffcaruso/capstone-Setup_Repo/blob/main/images/showing%20area%20selected.png)
     1. Wait for loading (probably will say something like 'starting container' and have a loading bar)
-1. Clone the repo e.g.,'git clone https://github.com/Jeffcaruso/capstone-Setup_Repo.git'
+1. If you get a 'Workspace does not exist' error
+    1. Select 'Open Workspace...'
+    2. Navigate/type the path to be: '/home/cssuwbstudent/(UwNetId)'
+        1. E.g., for id jeff, use '/home/cssuwbstudent/jeff'
+    3. Press OK or press enter
+    4. It will begin reloading 
+1. Select Terminal>New Terminal
+    1. A Bash terminal should open 
+1. Clone the repo by git entering 'git clone (repo)' in the terminal
+    2. e.g.,'git clone https://github.com/Jeffcaruso/capstone-Setup_Repo.git'
 1. Enter command in bash terminal: 'cd capstone-Setup_Repo/'
 1. Enter command in bash terminal: './install-googletest.sh'
     1. NOTE: install-googletest.sh should be executable, but if for some reason that gets lost, Enter command in bash terminal: 'chmod +x install-googletest.sh'; Then run install command again
+    2. Will probably take about 1 minute to complete the install
 1. Wait for the script to run and install google test
 1. Following notes at bottom of script,
     1. If install ok (no errors), Enter command in bash terminal: 'rm -rf googletest'
