@@ -10,7 +10,7 @@ This repository is intended to support you configuring your Docker container to 
 1. CSS Wiki on how to [open Docker container](https://csswiki.uwb.edu/attach-vscode-to-csslab-docker-container/)
     1. NOTE: You will need to sign in with your UW NET ID 
     1. Docker - start the container you made from containers page of docker desktop
-    1. Remote Explorer (VSC) ![images/remote explorer](https://github.com/Jeffcaruso/capstone-Setup_Repo/blob/main/images/remote%20explorer.PNG) - find the container with the play button icon
+    1. Remote Explorer (VSC) ![images/remote explorer](https://github.com/Jeffcaruso/capstone-Setup_Repo/blob/main/images/remote%20explorer.png) - select this then find the container with the play button icon
     ![images/play button.png](https://github.com/Jeffcaruso/capstone-Setup_Repo/blob/main/images/play%20button.PNG))
     1. Open the container (pick either A or B)
         1. Same window - press arrow; ->
